@@ -20,14 +20,18 @@ printf("Ahora, dime un tercer número entero\n");
 scanf("%i",&c);
 printf("Ahora, dime el último  número entero\n");
 scanf("%i",&d);
-
-f=(a+b)*c/d;
+/* defini cuanto vale cada variable */
+f= (a + b)* c / d;
+printf("\n (a+b)*c/d\n");
 printf("\n La respuesta de la primera operación es: %i\n",f);
-g=((a+b)*c)/d;
+g= ((a + b) * c) / d;
+printf("\n ((a+b)*c)/d\n");
 printf("\n La respuesta de la segunda operación es: %i\n",g);
-h=(a+b)*c/d;
+h= (a + b) * c / d;
+printf("\n (a+b)*c/d\n");
 printf("\n La respuesta de la tercera operación es: %i\n",h);
-i=a+(b*c)/d;
+i= a + (b * c) / d;
+printf("\n a+(b*c)/d\n");
 printf("\n La respuesta de la cuarta operación es: %i\n",i);
 return 0;
 }

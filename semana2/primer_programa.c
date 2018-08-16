@@ -3,8 +3,10 @@
 int main()
 {
 int edad;
-
-printf("Hola Daniel \n");
+char nombre [20];
+printf("Dime tu nombre\n");
+scanf("%s",&nombre);
+printf("Hola:%s\n",nombre);
 printf("Este es el 1er programa del curso\n");
 printf("Introduce tu edad: \n");
 scanf("%i",&edad);

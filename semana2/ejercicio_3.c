@@ -10,7 +10,7 @@ float f;
 float g;
 float h;
 float i;
-/* puse una variable de numeros reales para que incluyera decimales, para cada cantidad y para cada operacion */
+/* puse una variable llamada "float" que incluye los numeros reales, para que incluyera decimales, para cada cantidad y para cada operacion, el formato es muy parecido al del ejercicio 2 solo porque cambie la variable int por float */
 
 printf("Hola, dime un número real\n");
 scanf("%f",&a);
@@ -22,12 +22,16 @@ printf("Ahora, dime el último  número real\n");
 scanf("%f",&d);
 
 f=(a+b)*c/d;
+printf("\n (a+b)*c/d\n");
 printf("\n La respuesta de la primera operación es: %f\n",f);
 g=((a+b)*c)/d;
+printf("\n ((a+b)*c)/d\n");
 printf("\n La respuesta de la segunda operación es: %f\n",g);
 h=(a+b)*c/d;
+printf("\n (a+b)*c/d\n");
 printf("\n La respuesta de la tercera operación es: %f\n",h);
 i=a+(b*c)/d;
+printf("\n a+(b*c)/d\n");
 printf("\n La respuesta de la cuarta operación es: %f\n",i);
 return 0;
 }
