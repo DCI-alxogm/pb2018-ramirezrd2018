@@ -9,6 +9,7 @@ int main()
  float r;
  float o;
  float f;
+ 
  printf("Hola soy un programa que convierte coordenadas cartesianas a esfericas\n");
  printf("dame el valor de la coordenada en x\n");
  scanf("%f",&x);
@@ -16,11 +17,14 @@ int main()
  scanf("%f",&y);
  printf("dame el valor de la coordenada en z\n");
  scanf("%f",&z);
- r=sqrt(pow (x, 2)+ pow(y, 2) +
+ printf("tus coordenadas esfericas son:\n");
+ r=sqrt(pow(x,2)+pow(y,2)+pow(z,2));
  printf("r:%f\n",r);
- o=
+ o=(acos(z/r));
  printf("theta:%f\n",o);
- f=
+ f=(atan(y/x));
  printf("phi:%f\n",f);
- 
+ printf
+ return 0;
+}
 

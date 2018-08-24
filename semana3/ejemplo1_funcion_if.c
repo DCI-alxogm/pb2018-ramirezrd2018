@@ -1,5 +1,5 @@
 /*creado el 23 de Agosto del 2018 por Daniel Ramirez Romo*/
-#include<stdio.>
+#include<stdio.h>
 int main()
 {
  int a;

@@ -1,0 +1,4 @@
+/*creado e23 de Agosto por Daniel Ramirez Romo*/
+#include <stdio.h>
+ int a;
+ 
